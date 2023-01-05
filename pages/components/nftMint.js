@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { ethers } from "ethers"
-import {
-    ContractAddresses,
-    BasicNftabi,
-} from "/home/arno/dloanfrontend/constants"
-import { ConnectButton } from "@rainbow-me/rainbowkit"
+import { ContractAddresses, BasicNftabi } from "/constants"
 function NFT() {
     const [tokenCounter, setTokenCounter] = useState(0)
     //const [account, setAccount] = useState(null)

@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { ethers } from "ethers"
-import {
-    ContractAddresses,
-    LoanDappabi,
-    BasicNftabi,
-} from "/home/arno/dloanfrontend/constants"
+import { ContractAddresses, LoanDappabi, BasicNftabi } from "/constants"
 
 const ApplyLoan = () => {
     const [amount, setAmount] = useState("")

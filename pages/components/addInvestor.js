@@ -1,8 +1,5 @@
 import { ethers } from "ethers"
-import {
-    ContractAddresses,
-    RegistarInvestorabi,
-} from "/home/arno/dloanfrontend/constants"
+import { ContractAddresses, RegistarInvestorabi } from "/constants"
 
 import { useEffect, useState } from "react"
 

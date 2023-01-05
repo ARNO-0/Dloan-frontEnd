@@ -1,5 +1,5 @@
-import ActiveLoans from "/home/arno/dloanfrontend/pages/components/lender.js"
-import MyProposals from "/home/arno/dloanfrontend/pages/components/myGivenProposals.js"
+import ActiveLoans from "./components/lender.js"
+import MyProposals from "./components/myGivenProposals.js"
 import { ConnectButton } from "@rainbow-me/rainbowkit"
 
 function NftPage() {

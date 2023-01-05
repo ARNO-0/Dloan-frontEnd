@@ -1,4 +1,4 @@
-import NFT from "/home/arno/dloanfrontend/pages/components/nftMint.js"
+import NFT from "./components/nftMint.js"
 
 import { ConnectButton } from "@rainbow-me/rainbowkit"
 function NftPage() {

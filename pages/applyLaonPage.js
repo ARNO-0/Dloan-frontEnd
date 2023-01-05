@@ -2,8 +2,8 @@ import React from "react"
 import { Container, Row, Col } from "react-bootstrap"
 import { ConnectButton } from "@rainbow-me/rainbowkit"
 import ApplyLoan from "./components/applyLoan"
-import ActiveProposals from "/home/arno/dloanfrontend/pages/components/displayProposals.js"
-import DisplayBorrowerLoans from "/home/arno/dloanfrontend/pages/components/displayBorrowerloans.js"
+import ActiveProposals from "./components/displayProposals.js"
+import DisplayBorrowerLoans from "./components/displayBorrowerloans.js"
 const LoanPage = () => {
     const css = `
     .container {

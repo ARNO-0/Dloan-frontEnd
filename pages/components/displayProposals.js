@@ -1,9 +1,6 @@
 import React, { useState, useEffect } from "react"
 import { ethers } from "ethers"
-import {
-    ContractAddresses,
-    LoanDappabi,
-} from "/home/arno/dloanfrontend/constants"
+import { ContractAddresses, LoanDappabi } from "/constants"
 
 const ActiveProposals = () => {
     const [proposals, setProposals] = useState([])
